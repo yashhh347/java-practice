@@ -11,6 +11,10 @@ public class ch5methods {
         return z;
 
     }
+    //returns nothing - Void return type
+    static void tellJoke(){
+        System.out.println("I invented a new world!\n"+"Plagarism!");
+    }
     public static void main(String[] args) {
         int a=5;
         int b=7;
@@ -26,6 +30,7 @@ public class ch5methods {
         int c1;
         c1=logic(a1,b1);
         System.out.println(c1);
+        tellJoke();
 
     }
 }
